@@ -1,0 +1,60 @@
+nav {
+	margin-bottom: 0;
+	background-color: none;
+}
+
+.navbar-nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a: hover {
+	cursor: pointer;
+}
+
+#intro {
+	background: url(../img/imgfondo01.jpg) 50% 0 fixed;
+	background-size: cover;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: -3.5em;
+	margin-bottom: 0;
+	padding: 25% 0;
+}
+
+#bloque-img2{
+	background: url(../img/imgfondo02.jpg) 50% 0 fixed;
+	background-size: cover;
+	height: 200px;
+}
+
+.titleprinc h1, .titleprinc p{
+	color: white;
+}
+
+.bloque {
+	padding: 8em 0;
+	border-top: 0.5px solid #eeebeb;
+}
+
+.webcaja {
+	border: 0.5px solid #eeebeb;
+	padding: 1em 0.5em;
+}
+
+.texto h2 {
+	margin-bottom: 3em;
+}
+
+.gris {
+	background-color: #fafafa;
+}
+
+.blanco {
+	background-color: white;
+	border-bottom: 0.5px solid #eeebeb;
+}
+
+.blanco .navbar-nav a {
+	color: black;
+}
