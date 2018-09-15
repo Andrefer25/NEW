@@ -1,6 +1,12 @@
 # NEW (New Essentials Web Development)
 
 
+Ver 0.6 :
+
+  _Creadas las secciones Portfolio y Team
+  
+  _Colocados parcialmente los iconos en About
+
 Ver 0.5 :
 
   _Estructura mas o menos armada
