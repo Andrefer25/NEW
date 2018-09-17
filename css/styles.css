@@ -107,3 +107,7 @@ nav a: hover {
 .team .webcaja {
 	background-color: #fafafa;
 }
+
+.nav-item:hover {
+	cursor: pointer;
+}
