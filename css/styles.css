@@ -3,7 +3,7 @@ nav {
 	background-color: none;
 }
 
-.navbar-nav a {
+.navbar-nav p {
 	text-decoration: none;
 	color: white;
 }
@@ -55,7 +55,7 @@ nav a: hover {
 	border-bottom: 0.5px solid #eeebeb;
 }
 
-.blanco .navbar-nav a {
+.blanco .navbar-nav p {
 	color: black;
 }
 
