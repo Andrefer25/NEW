@@ -14,13 +14,18 @@ nav a: hover {
 }
 
 .logo{
-	height: 40px;
-	width: 85px;
-	display: none;
+	position: absolute;
+	bottom: 25px;
+	height: 20px;
+	width: 130px;
 }
 
 .appear{
 	display: inline-block;
+}
+
+.disappear{
+	display: none;
 }
 
 #intro {
@@ -70,6 +75,28 @@ nav a: hover {
 .blanco .navbar-nav p {
 	color: black;
 }
+
+#webcaja1:hover p,
+#webcaja2:hover p,
+#webcaja3:hover p{
+	color: white;
+}
+
+.rojo{
+	background-color: #D05751;
+	color: white;
+}
+
+.celeste{
+	background-color: #617AA0;
+	color: white;
+}
+
+.verde{
+	background-color: #59B78D;
+	color: white;
+}
+
 
 .about img {
 	margin: 1em 0;
