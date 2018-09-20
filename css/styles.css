@@ -13,8 +13,18 @@ nav a: hover {
 	cursor: pointer;
 }
 
+.logo{
+	height: 50px;
+	width: 100px;
+	display: none;
+}
+
+.appear{
+	display: inline-block;
+}
+
 #intro {
-	background: url(../img/imgfondo01.jpg) 50% 0 fixed;
+	background: url(../img/fondo.png) 50% 0 fixed;
 	background-size: cover;
 	margin: 0 auto;
 	width: 100%;
@@ -31,6 +41,7 @@ nav a: hover {
 
 .titleprinc h1, .titleprinc p{
 	color: white;
+	font-family: 'customFontName2', sans-serif;
 }
 
 .bloque {
@@ -111,4 +122,33 @@ nav a: hover {
 
 .nav-item:hover {
 	cursor: pointer;
+}
+
+@font-face{
+	font-family: customFontName;
+	src: url('../fonts/BeatrixAntiqua-ThinTrial.otf'),
+	url('../fonts/BeatrixAntiqua-ThinTrial.ttf') format('truetype'), /*to maximum browser compatibility you can do this*/
+	url('../fonts/BeatrixAntiqua-ThinTrial.svg#font') format('svg');
+}
+
+@font-face{
+	font-family: customFontName2;
+	src: url("../fonts/UltimaPDaa-Hairline.otf"), url("../fonts/UltimaPDaa-Hairline.ttf") format("truetype"), url("../fonts/UltimaPDaa-Hairline.svg#font") format("svg");
+}
+
+
+
+@keyframes grow-left {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+
+.agent-2 {
+	transform: scaleX(0);
+	transform-origin: left;
+	animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
+	animation-delay: 0.4s;
 }
